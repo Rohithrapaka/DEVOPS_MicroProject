@@ -1,1 +1,1 @@
-DevOps Micro Project
+DevOps Continuous Delivery Micro Project
