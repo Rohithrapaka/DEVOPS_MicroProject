@@ -22,10 +22,10 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Build Application with Maven
-        run: mvn clean package
+      - name: Build Application
+        run: ./mvnw clean package
 
-      - name: Upload Build Artifact
+      - name: Upload JAR Artifact
         uses: actions/upload-artifact@v3
         with:
           name: springboot-app
